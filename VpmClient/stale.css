@@ -1,0 +1,56 @@
+html, *{
+    padding: 0;
+    margin: 0;
+}
+.container__mask{
+    background: linear-gradient(199deg, rgb(6, 127, 136), green, rgb(119, 35, 145));
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.burger{
+    margin-top: 5px;
+    cursor: pointer;
+}
+.line__menu{
+    width: 40px;
+    height: 1px;
+    background: white;
+    position: relative;
+}
+
+.line__menu::before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    background: rgb(255, 255, 255);
+    top: 15px;
+}
+
+.line__menu::after{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    background: rgb(255, 255, 255);
+    top: 8px;
+}
+
+.profile img{
+    width: 35px;
+    cursor: pointer;
+}
+
